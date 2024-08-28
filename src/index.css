@@ -166,7 +166,12 @@ progress {
   border: 2px solid var(--color-accent);
   color: var(--color-darkest);
 }
-
+.answerwrong {
+  background-color: hsl(0, 100%, 60%);
+  background-color: #e05858;
+  border: 2px solid var(--color-darkest);
+  color: var(--color-light);
+}
 .answer {
   transform: translateX(2rem);
 }
